@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 2,
+    "passes": 5,
     "pending": 0,
-    "failures": 3,
-    "start": "2024-05-24T18:41:06.590Z",
-    "end": "2024-05-24T18:41:06.771Z",
-    "duration": 181
+    "failures": 0,
+    "start": "2024-05-24T18:46:06.589Z",
+    "end": "2024-05-24T18:46:06.760Z",
+    "duration": 171
   },
   "tests": [
     {
@@ -27,67 +27,27 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "setBestCustomer is not defined"
-      }
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "overwriteBestCustomer is not defined"
-      }
+      "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "changeLeastFavoriteCustomer is not defined"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "setBestCustomer",
-      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: setBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:21:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "setBestCustomer is not defined"
-      }
-    },
-    {
-      "title": "overwrites the best customer",
-      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: overwriteBestCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:29:7)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "overwriteBestCustomer is not defined"
-      }
-    },
-    {
-      "title": "unsuccessfully tries to reassign the least favorite customer",
-      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: changeLeastFavoriteCustomer is not defined\n    at Context.<anonymous> (test/indexTest.js:37:14)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "changeLeastFavoriteCustomer is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns the customerName",
@@ -99,6 +59,27 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "overwrites the best customer",
+      "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
